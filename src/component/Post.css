@@ -1,0 +1,20 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing:border-box;
+ }
+ 
+ .wrapper{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top:10px;
+   border: solid rgb(85, 85, 228);
+   border-radius: 10px;
+   padding: 2px;
+ }
+ .strong{
+   padding: 2px;
+ }
+
+
