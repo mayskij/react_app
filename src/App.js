@@ -28,7 +28,7 @@ function App() {
       <PostForm create={createPost} />
       <Selector value={selectedSort} onChange={sortPosts} options={[{ value: "tittle", name: "по описанию" }, { value: "body", name: "по названию" }]} defoultValue="сортировка" />
       {posts.length === 0
-        ? <h1>Записей нет </h1>
+        ? <h1>Записей нету </h1>
         : <PostList delet={removePost} posts={posts} />
       }
     </div>
