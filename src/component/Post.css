@@ -9,12 +9,13 @@
    justify-content: space-between;
    align-items: center;
    margin-top:10px;
-   border: solid rgb(85, 85, 228);
+   border: solid rgb(2, 2, 182);
    border-radius: 10px;
    padding: 2px;
  }
  .strong{
    padding: 2px;
+   font-size: 150%
  }
 
 
